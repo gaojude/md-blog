@@ -11,8 +11,7 @@ import {
   updatePostFailure,
   updatePostSuccess,
 } from './post.actions';
-
-const BASE_URL = '';
+import {BASE_URL} from "../../constants";
 
 const ROUTE = {
   allPosts: 'post',

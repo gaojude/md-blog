@@ -1,0 +1,51 @@
+Arguments: 
+  /Users/judegao/.nvm/versions/node/v15.2.0/bin/node /usr/local/Cellar/yarn/1.22.5/libexec/bin/yarn.js
+
+PATH: 
+  /Users/judegao/.nvm/versions/node/v15.2.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  15.2.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/judegao/Jude/blog/server/package.json: Unexpected token } in JSON at position 412
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "mongoose": "^5.9.19"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.4"
+    },
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fda14e05-9b67-4558-8f44-f0edbc06e486" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/redux/post/post.sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/post/post.sagas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/codemirror.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/3024-day.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/3024-night.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/abcdef.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/ambiance-mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/ambiance.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/ayu-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/ayu-mirage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/base16-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/base16-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/bespin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/blackboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/cobalt.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/colorforth.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/darcula.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/dracula.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/duotone-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/duotone-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/eclipse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/elegant.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/erlang-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/gruvbox-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/hopscotch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/icecoder.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/idea.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/isotope.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/lesser-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/liquibyte.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/lucario.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/material-darker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/material-ocean.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/material-palenight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/material.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/mbo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/mdn-like.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/midnight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/monokai.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/moxer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/neat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/neo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/night.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/nord.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/oceanic-next.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/panda-syntax.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/paraiso-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/paraiso-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/pastel-on-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/railscasts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/rubyblue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/seti.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/shadowfox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/solarized.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/ssms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/the-matrix.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/tomorrow-night-bright.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/tomorrow-night-eighties.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/ttcn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/twilight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/vibrant-ink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/xq-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/xq-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/yeti.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/yonce.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/lib/theme/zenburn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/precache-manifest.64fe0eb293a9dd6566f701f475389750.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/resume.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/static/css/main.e69fda6a.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/static/css/main.e69fda6a.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/static/js/2.8d919303.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/static/js/2.8d919303.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/static/js/2.8d919303.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/static/js/main.cb7dacc2.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/static/js/main.cb7dacc2.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/static/js/runtime-main.09b85ec0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/static/js/runtime-main.09b85ec0.js.map" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1m4hqL64Ta5OESk2xoii1w9pn1F" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$/client" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fda14e05-9b67-4558-8f44-f0edbc06e486" name="Default Changelist" comment="" />
+      <created>1608758959487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608758959487</updated>
+      <workItem from="1608758960735" duration="985000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
