@@ -24,7 +24,7 @@ const App = ({errorMessage}) => {
                     <Route path='/post/:postID' component={PostPage}/>
                 </div>
                 <Route path='/maintain' component={UpdatePage}/>
-                <p className={"text-center text-uppercase font-weight-bold text-secondary mt-5"}>&copy; 2020 Jude Gao</p>
+                <p className={"text-center text-uppercase font-weight-bold text-secondary mt-5"}>&copy; 2021 Jude Gao</p>
             </div>
         )
     }
