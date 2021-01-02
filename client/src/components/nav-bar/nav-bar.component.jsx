@@ -1,10 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link, withRouter } from "react-router-dom";
 
-const NavBar = ({ location }) => {
-  if (location.pathname === "/") {
-    return null;
-  }
+const NavBar = () => {
   return (
     <nav className="navbar-light navbar navbar-expand-sm  bg-light">
       <div className="container">
@@ -39,4 +36,4 @@ const NavBar = ({ location }) => {
   );
 };
 
-export default withRouter(NavBar);
+export default NavBar;
