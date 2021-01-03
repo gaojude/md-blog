@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fda14e05-9b67-4558-8f44-f0edbc06e486" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/maintain-post-list/MaintainPostListDrawer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/post-list/badgeUtil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/ui/Row.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/maintain-post-list/maintain-post-list.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/nav-bar/nav-bar.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/post-editor/post-editor.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/post-editor/post-editor.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/post-editor/post-editor.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/post-editor/post-editor.styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/post-list/post-list.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/post-list/post-list.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/home-page/home-page.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/home-page/home-page.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/post-page/post-page.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/post-page/post-page.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/update-page/update-page.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/update-page/update-page.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608758959487</updated>
       <workItem from="1608758960735" duration="2359000" />
-      <workItem from="1609615875076" duration="14414000" />
+      <workItem from="1609615875076" duration="14727000" />
     </task>
     <servers />
   </component>
