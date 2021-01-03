@@ -12,18 +12,18 @@ import {
   Toolbar,
   Typography,
 } from "@material-ui/core";
-import { MenuOpen } from "@material-ui/icons";
+import { Home, MenuOpen } from "@material-ui/icons";
 
 const UpdatePage = ({ posts }) => {
   const [drawerOpen, setDrawer] = useState(false);
   return (
     <>
-      <AppBar color={"transparent"} position="static">
+      <AppBar color={"primary"} position="sticky">
         <Toolbar>
           <IconButton onClick={() => setDrawer(true)}>
-            <MenuOpen />
+            <MenuOpen style={{ color: "white" }} />
           </IconButton>
-          <Typography variant="body2" align={"center"} color="textSecondary">
+          <Typography variant="body2" align={"center"}>
             Jude's Content Manager
           </Typography>
         </Toolbar>

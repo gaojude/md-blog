@@ -22,14 +22,14 @@ const PostPage = ({ post }) => {
   if (post)
     return (
       <>
-        <AppBar color={"transparent"} position="static">
+        <AppBar color={"primary"} variant={"elevation"} position="sticky">
           <Toolbar>
             <Link to={"/"}>
               <IconButton>
-                <Home />
+                <Home style={{ color: "white" }} />
               </IconButton>
             </Link>
-            <Typography variant="body2" align={"center"} color="textSecondary">
+            <Typography variant="body2" align={"center"}>
               {getProperTitle(post.title)}
             </Typography>
           </Toolbar>
