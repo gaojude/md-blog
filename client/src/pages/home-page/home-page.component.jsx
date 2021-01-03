@@ -3,7 +3,7 @@ import PostList from "../../components/post-list/post-list.component";
 import { connect } from "react-redux";
 import Typed from "react-typed";
 import { Link } from "react-router-dom";
-import { Typography } from "@material-ui/core";
+import { Container, Typography } from "@material-ui/core";
 
 const strings = [
   "Frontend Developer at Faire",
@@ -13,7 +13,7 @@ const strings = [
 
 const HomePage = ({ posts }) => {
   return (
-    <div>
+    <Container>
       <Typography
         className={"mt-5"}
         align={"center"}
@@ -38,7 +38,7 @@ const HomePage = ({ posts }) => {
           <Typography color={"textSecondary"}>Manage Contents</Typography>
         </Link>
       </p>
-    </div>
+    </Container>
   );
 };
 

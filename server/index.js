@@ -1,28 +1,28 @@
-const express = require('express');
+const express = require("express");
 const app = express();
-const cors = require('cors');
-const bodyParser = require('body-parser');
-const mongoose = require('mongoose');
-const { Post, Collection } = require('./Models');
+const cors = require("cors");
+const bodyParser = require("body-parser");
+const mongoose = require("mongoose");
+const { Post, Collection } = require("./Models");
 
 mongoose
-  .connect('mongodb+srv://admin:admin@cluster0-eao6c.azure.mongodb.net/dev', {
+  .connect("mongodb+srv://admin:admin@cluster0-eao6c.azure.mongodb.net/dev", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
-  .then(() => console.log('Successfully connected to MongoDB'));
+  .then(() => console.log("Successfully connected to MongoDB"));
 
 app.use(cors());
 app.use(bodyParser.json());
-app.use(express.static('public'));
+app.use(express.static(__dirname + "/public"));
 
 // respond with "hello world" when a GET request is made to the homepage
-app.get('/', function (req, res) {
-  res.send('hello world');
+app.get("/", function (req, res) {
+  res.send("hello world");
 });
 
 app
-  .route('/post')
+  .route("/post")
   .get((req, res) => {
     Post.find().then((docs) => {
       res.json(docs);
@@ -37,7 +37,7 @@ app
   });
 
 app
-  .route('/post/:id')
+  .route("/post/:id")
   .get((req, res) => {
     const { id } = req.params;
     Post.findById(id).then((doc) => res.json(doc));
@@ -59,16 +59,16 @@ app
   });
 
 app
-  .route('/collections')
+  .route("/collections")
   .get((req, res) => {
     Collection.find().then((collections) => res.json(collections));
   })
   .post((req, res) => {
     const { collectionName } = req.body;
-    console.log('try to create a new collection with name ' + collectionName);
+    console.log("try to create a new collection with name " + collectionName);
     new Collection({
       name: collectionName,
-      description: '<This is a dummy description.>',
+      description: "<This is a dummy description.>",
       posts: [],
     })
       .save()
@@ -81,7 +81,7 @@ app
   });
 
 app
-  .route('/collection/:id')
+  .route("/collection/:id")
   .get((req, res) => {
     const { id } = req.params;
     Collection.findById(id)
@@ -106,7 +106,9 @@ app
 
   .delete((req, res) => {
     const { id } = req.params;
-    Collection.deleteOne({ _id: id }).then((collection) => res.json(collection));
+    Collection.deleteOne({ _id: id }).then((collection) =>
+      res.json(collection)
+    );
   });
 
 var port = process.env.PORT || 80;
