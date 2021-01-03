@@ -1,0 +1,8 @@
+{
+  "short_name": "Jude's Blog",
+  "name": "Jude Gao's Blog with Online Note Taking",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
