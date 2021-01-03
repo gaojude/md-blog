@@ -23,8 +23,8 @@ const UpdatePage = ({ posts }) => {
           <IconButton onClick={() => setDrawer(true)}>
             <MenuOpen />
           </IconButton>
-          <Typography variant="h6" color="inherit">
-            Posts
+          <Typography variant="body2" align={"center"} color="textSecondary">
+            Jude's Content Manager
           </Typography>
         </Toolbar>
       </AppBar>

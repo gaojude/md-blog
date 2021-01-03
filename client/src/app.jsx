@@ -19,10 +19,8 @@ const App = ({ errorMessage }) => {
   } else {
     return (
       <div>
-        <div className={"container"}>
-          <Route path="/" exact component={HomePage} />
-          <Route path="/post/:postID" component={PostPage} />
-        </div>
+        <Route path="/" exact component={HomePage} />
+        <Route path="/post/:postID" component={PostPage} />
         <Route path="/maintain" component={UpdatePage} />
       </div>
     );
