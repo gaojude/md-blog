@@ -74,6 +74,7 @@ const PostEditor = ({ post, updatePost, createPost, deletePost, id }) => {
           value={title}
           onChange={handleChangeGeneric}
           labelWidth={40}
+          name={"title"}
           style={{
             flexGrow: 1,
           }}
