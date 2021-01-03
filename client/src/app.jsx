@@ -6,7 +6,6 @@ import { Route, Link } from "react-router-dom";
 import HomePage from "./pages/home-page/home-page.component";
 import PostPage from "./pages/post-page/post-page.component";
 import UpdatePage from "./pages/update-page/update-page.component";
-import NavBar from "./components/nav-bar/nav-bar.component";
 
 const App = ({ errorMessage }) => {
   if (errorMessage) {
@@ -20,21 +19,11 @@ const App = ({ errorMessage }) => {
   } else {
     return (
       <div>
-        <NavBar />
         <div className={"container"}>
           <Route path="/" exact component={HomePage} />
           <Route path="/post/:postID" component={PostPage} />
         </div>
         <Route path="/maintain" component={UpdatePage} />
-        <p
-          className={
-            "text-center text-uppercase font-weight-bold text-secondary mt-5"
-          }
-        >
-          <Link to={"/maintain"} className={`nav-link`} href="#">
-            &copy; 2021 Jude Gao
-          </Link>
-        </p>
       </div>
     );
   }
